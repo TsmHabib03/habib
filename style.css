@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F2;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #1F232F;
+  color: #fff;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+.subtext {
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+section.aircraft {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+section.aircraft:hover {
+  transform: translateY(-10px);
+}
+
+section.aircraft img {
+  width: 150%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+section.aircraft img:hover {
+  transform: scale(1.05);
+}
+
+h1, h3 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: justify;
+  margin: 20px;
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1F232F;
+  color: #fff;
+}
+
+footer h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
